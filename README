@@ -1,0 +1,94 @@
+Finnish and Russian: `apertium-fin-rus`
+===============================================================================
+
+This is an Apertium language pair for translating between Finnish and
+Russian. What you can use this language package for:
+
+* Translating between Finnish and Russian
+* Morphological analysis of Finnish and Russian
+* Part-of-speech tagging of Finnish and Russian
+
+For information on the latter two points, see subheading "For more
+information" below.
+
+Requirements
+-------------------------------------------------------------------------------
+
+You will need the following software installed:
+
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* vislcg3 (>= 0.9.9.10297)
+* hfst (>= 3.8.2)
+* apertium-fin
+* apertium-rus
+
+If this does not make any sense, we recommend you look at: www.apertium.org.
+
+Compiling
+-------------------------------------------------------------------------------
+
+Given the requirements being installed, you should be able to just run:
+
+```console
+$ ./configure
+$ make
+# make install
+```
+
+You can use `./autogen.sh` instead of `./configure` in case you're compiling
+from source. If you installed any prerequisite language packages using a
+`--prefix` with `./configure`, make sure to use the same `--prefix` when running
+`./configure` here.
+
+Testing
+-------------------------------------------------------------------------------
+
+If you are in the source directory after running make, the following
+commands should work:
+
+```console
+$ echo "TODO test sentence 1" | apertium -d . fin-rus
+TODO test translated sentence 1
+
+$ echo "TODO test sentence 2" | apertium -d . rus-fin
+TODO test translated sentence 2
+```
+
+After installing somewhere in `$PATH`, you should be able to do e.g.
+
+```console
+$ echo "TODO test sentence 1" | apertium fin-rus
+TODO test translated sentence 1
+```
+
+Files and data
+-------------------------------------------------------------------------------
+
+* [`apertium-fin-rus.fin-rus.dix`](apertium-fin-rus.fin-rus.dix) - Bilingual dictionary
+* [`apertium-fin-rus.fin-rus.t1x`](apertium-fin-rus.fin-rus.t1x) - Chunking rules for translating into Russian
+* [`apertium-fin-rus.rus-fin.t1x`](apertium-fin-rus.rus-fin.t1x) - Chunking rules for translating into Finnish
+* [`apertium-fin-rus.fin-rus.t2x`](apertium-fin-rus.fin-rus.t2x) - Interchunk rules for translating into Russian
+* [`apertium-fin-rus.rus-fin.t2x`](apertium-fin-rus.rus-fin.t2x) - Interchunk rules for translating into Finnish
+* [`apertium-fin-rus.fin-rus.t3x`](apertium-fin-rus.fin-rus.t3x) - Postchunk rules for translating into Russian
+* [`apertium-fin-rus.rus-fin.t3x`](apertium-fin-rus.rus-fin.t3x) - Postchunk rules for translating into Finnish
+* [`apertium-fin-rus.fin-rus.lrx`](apertium-fin-rus.fin-rus.lrx) - Lexical selection rules for translating into Russian
+* [`apertium-fin-rus.rus-fin.lrx`](apertium-fin-rus.rus-fin.lrx) - Lexical selection rules for translating into Finnish
+* [`modes.xml`](modes.xml) - Translation modes
+
+For more information
+-------------------------------------------------------------------------------
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-fin-rus
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+-------------------------------------------------------------------------------
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: `#apertium` on irc.freenode.net (irc://irc.freenode.net/#apertium)
+
+See also the file [`AUTHORS`](AUTHORS), included in this distribution.
