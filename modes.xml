@@ -5,8 +5,8 @@
 
   <mode name="fin-rus" install="yes" gendebug="yes">
     <pipeline>
-      <program name="lt-proc -w">
-        <file name="fin-rus.automorf.bin"/>
+      <program name="hfst-proc -w">
+        <file name="fin-rus.automorf.hfst"/>
       </program>
 
       <program name="cg-proc -w -1 -n">
@@ -32,6 +32,44 @@
         <file name="fin-rus.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
+        <file name="fin-rus.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="fin-rus.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="fin-rus-debug" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="fin-rus.automorf.hfst"/>
+      </program>
+
+      <program name="cg-proc -w -1 -n">
+        <file name="fin-rus.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="fin-rus.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="fin-rus.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-fin-rus.fin-rus.t1x"/>
+        <file name="fin-rus.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-fin-rus.fin-rus.t2x"/>
+        <file name="fin-rus.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-fin-rus.fin-rus.t3x"/>
+        <file name="fin-rus.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
         <file name="fin-rus.autogen.bin"/>
       </program>
 
@@ -75,11 +113,50 @@
         <file name="apertium-fin-rus.rus-fin.t3x"/>
         <file name="rus-fin.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
-        <file name="rus-fin.autogen.bin"/>
+      <program name="hfst-proc $1">
+        <file name="rus-fin.autogen.hfst"/>
       </program>
 
     </pipeline>
   </mode>
+
+  <mode name="rus-fin-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name=".deps/rus.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="rus-fin.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="rus-fin.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="rus-fin.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="rus-fin.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-fin-rus.rus-fin.t1x"/>
+        <file name="rus-fin.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-fin-rus.rus-fin.t2x"/>
+        <file name="rus-fin.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-fin-rus.rus-fin.t3x"/>
+        <file name="rus-fin.t3x.bin"/>
+      </program>
+      <program name="hfst-proc -d">
+        <file name="rus-fin.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
 </modes>
 
