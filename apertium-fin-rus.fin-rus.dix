@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+   <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZа
+     АбБсСдДеЕфФгГхХиИйЙкКлЛмМнНоОпПрРсСшШщЩтТуУвВзЗэЭяЯыЫьЬ</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
-    <sdef n="n"               c="Noun"/>
+    <sdef n="n"               c="NOUN"/>
+    <sdef n="punct"           c="PUNCT"/>
     <sdef n="np"              c="Proper noun"/>
     <sdef n="vblex"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
@@ -16,6 +18,7 @@
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
     <sdef n="pr"              c="Preposition"/>
+    <sdef n="post"            c="Postposition"/>
     <sdef n="adv"             c="Adverb"/>
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
@@ -95,13 +98,89 @@
     <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
 
-   <section id="main" type="standard">
-      <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+  <section id="main" type="standard">
 
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
-   </section>
+    <!-- I organise them classes first open then closed -->
+
+    <!-- nouns -->
+
+    <e><p><l>talo<s n="n"/></l><r>дом<s n="n"/></r></p></e>
+    <e><p><l>kissa<s n="n"/></l><r>кошка<s n="n"/></r></p></e>
+    <e><p><l>puutarha<s n="n"/></l><r>сад<s n="n"/></r></p></e>
+    <e><p><l>sisko<s n="n"/></l><r>сестра<s n="n"/></r></p></e>
+    <e><p><l>vuosi<s n="n"/></l><r>год²<s n="n"/></r></p></e>
+    <e><p><l>tyttö<s n="n"/></l><r>девочка<s n="n"/></r></p></e>
+    <e><p><l>koiruli<s n="n"/></l><r>собачка<s n="n"/></r></p></e>
+    <e><p><l>leikki<s n="n"/></l><r>игра<s n="n"/></r></p></e>
+    <e><p><l>äiti<s n="n"/></l><r>мама<s n="n"/></r></p></e>
+
+    <!-- Proper nouns... translit? -->
+
+    <e><p><l>Jaakko<s n="np"/></l><r>Иаакко<s n="np"/></r></p></e>
+    <e><p><l>Mari<s n="np"/></l><r>Маря<s n="np"/></r></p></e>
+    <e><p><l>Vanja<s n="np"/></l><r>Ваня<s n="np"/></r></p></e>
+    <e><p><l>Maša<s n="np"/></l><r>Маша<s n="np"/></r></p></e>
+
+    <!-- adjectives -->
+
+    <e><p><l>pieni<s n="adj"/></l><r>маленький<s n="adj"/></r></p></e>
+
+    <!-- verbs -->
+
+    <e><p><l>olla<s n="vaux"/></l><r>быть<s n="vbser"/></r></p></e>
+
+    <e><p><l>pitää<s n="vblex"/></l><r>любить<s n="vblex"/></r></p></e>
+    <e><p><l>leikkiä<s n="vblex"/></l><r>играть<s n="vblex"/></r></p></e>
+    <e><p><l>löytää<s n="vblex"/></l><r>найти<s n="vblex"/></r></p></e>
+
+    <!-- adverbs -->
+
+    <e><p><l>ei<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
+
+    <e><p><l>nyt<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
+    <e><p><l>hyvin<s n="adv"/></l><r>очень<s n="adv"/></r></p></e>
+    <e><p><l>missä<s n="adv"/></l><r>где<s n="adv"/></r></p></e>
+    <e><p><l>kuumasti<s n="adv"/></l><r>тепло<s n="adv"/></r></p></e>
+    <e><p><l>kylmästi<s n="adv"/></l><r>холодно<s n="adv"/></r></p></e>
+
+    <!-- numerals -->
+
+    <e><p><l>viisi<s n="num"/></l><r>пять<s n="num"/></r></p></e>
+    <e><p><l>kuusi<s n="num"/></l><r>шесть<s n="num"/></r></p></e>
+
+    <!-- pronouns -->
+
+    <e><p><l>sinä<s n="prn"/></l><r>ты<s n="prn"/></r></p></e>
+    <e><p><l>hän<s n="prn"/></l><r>она<s n="prn"/></r></p></e>
+
+    <!-- interjections -->
+
+    <e><p><l>ei<s n="ij"/></l><r>нет<s n="ij"/></r></p></e>
+
+    <!-- adposition -->
+
+    <e><p><l>sisällä<s n="post"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>päällä<s n="post"/></l><r>на<s n="pr"/></r></p></e>
+    <e><p><l>sisällä<s n="post"/></l><r>у<s n="pr"/></r></p></e>
+
+    <!-- conjunctions -->
+
+    <e><p><l>ja<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+
+    <!-- puncts -->
+
+    <e><p><l>.<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
+    <e><p><l>,<s n="punct"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>–<s n="punct"/></l><r>–<s n="guio"/></r></p></e>
+    <e><p><l>-<s n="punct"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>?<s n="punct"/></l><r>?<s n="sent"/></r></p></e>
+    <e><p><l>;<s n="punct"/></l><r>;<s n="sent"/></r></p></e>
+    <e><p><l>:<s n="punct"/></l><r>:<s n="sent"/></r></p></e>
+    <e><p><l>!<s n="punct"/></l><r>!<s n="sent"/></r></p></e>
+    <e><p><l>…<s n="punct"/></l><r>…<s n="sent"/></r></p></e>
+    <e><p><l>"<s n="punct"/></l><r>"<s n="sent"/></r></p></e>
+
+  </section>
 </dictionary>
 
 <!--
