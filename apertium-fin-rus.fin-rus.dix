@@ -127,12 +127,16 @@
     <e><p><l>ikkuna<s n="n"/></l><r>окно<s n="n"/></r></p></e>
     <e><p><l>pelaaja<s n="n"/></l><r>играющий<s n="n"/></r></p></e>
     <e><p><l>leikki<s n="n"/></l><r>игра<s n="n"/></r></p></e>
+    <e><p><l>leikkiminen<s n="n"/></l><r>игра<s n="n"/></r></p></e>
+    <e><p><l>kuusi<s n="n"/></l><r>пихта<s n="n"/></r></p></e>
     <e><p><l>äiti<s n="n"/></l><r>мама<s n="n"/></r></p></e>
     <e><p><l>vesi<s n="n"/></l><r>вода<s n="n"/></r></p></e>
     <e><p><l>sää<s n="n"/></l><r>погода<s n="n"/></r></p></e>
     <e><p><l>katu<s n="n"/></l><r>улица<s n="n"/></r></p></e>
     <e><p><l>poika<s n="n"/></l><r>мальчик<s n="n"/></r></p></e>
     <e><p><l>aikuinen<s n="n"/></l><r>большой<s n="n"/></r></p></e>
+    <e><p><l>piilo<s n="n"/></l><r>укрытие<s n="n"/></r></p></e>
+    <e><p><l>voi<s n="n"/></l><r>масло<s n="n"/></r></p></e>
     <e><p><l>koti<s n="n"/></l><r>дом<s n="n"/></r></p></e>
     <e><p><l>silmä<s n="n"/></l><r>глаз<s n="n"/></r></p></e>
     <e><p><l>käsi<s n="n"/></l><r>рука<s n="n"/></r></p></e>
@@ -146,12 +150,16 @@
     <e><p><l>lintu<s n="n"/></l><r>птица<s n="n"/></r></p></e>
     <e><p><l>pää<s n="n"/></l><r>голова<s n="n"/></r></p></e>
     <e><p><l>eläin<s n="n"/></l><r>животное<s n="n"/></r></p></e>
+    <e><p><l>kerto<s n="n"/></l><r>умножение<s n="n"/></r></p></e>
+    <e><p><l>laskeminen<s n="n"/></l><r>счёт<s n="n"/></r></p></e>
     <e><p><l c="day">päivä<s n="n"/></l><r c="today">сегодня<s n="n"/></r></p></e>
 
     <!-- Proper nouns... translit? -->
 
     <e><p><l>Jaakko<s n="np"/></l><r>Иаакко<s n="np"/></r></p></e>
-    <e><p><l>Mari<s n="np"/></l><r>Маря<s n="np"/></r></p></e>
+    <e><p><l>Mari<s n="np"/></l><r>Мари<s n="np"/></r></p></e>
+    <e><p><l>Marilla<s n="np"/></l><r>Марилла<s n="np"/></r></p></e>
+    <e><p><l>Marin<s n="np"/></l><r>Марян<s n="np"/></r></p></e>
     <e><p><l>Vanja<s n="np"/></l><r>Ваня<s n="np"/></r></p></e>
     <e><p><l>Maša<s n="np"/></l><r>Маша<s n="np"/></r></p></e>
 
@@ -161,20 +169,33 @@
     <e><p><l>hyvä<s n="adj"/></l><r>хороший<s n="adj"/></r></p></e>
     <e><p><l>iloinen<s n="adj"/></l><r>счастливый<s n="adj"/></r></p></e>
     <e><p><l>vanha<s n="adj"/></l><r>старый<s n="adj"/></r></p></e>
+    <e><p><l>lämmin<s n="adj"/></l><r>тёплый<s n="adj"/></r></p></e>
+    <e><p><l>kylmä<s n="adj"/></l><r>холодный<s n="adj"/></r></p></e>
+    <e><p><l>iso<s n="adj"/></l><r>больсой<s n="adj"/></r></p></e>
+    <e><p><l>hauska<s n="adj"/></l><r>забажный<s n="adj"/></r></p></e>
+    <e><p><l>toinen<s n="adj"/></l><r>другой<s n="adj"/></r></p></e>
+    <e><p><l>muu<s n="adj"/></l><r>другой<s n="adj"/></r></p></e>
 
     <!-- verbs -->
 
     <e><p><l>olla<s n="vaux"/></l><r>быть<s n="vbser"/></r></p></e>
     <e><p><l>haluta<s n="vaux"/></l><r>хотеть<s n="vbmod"/></r></p></e>
     <e><p><l>täytyä<s n="vaux"/></l><r>должен<s n="pred"/></r></p></e>
+    <e><p><l>voida<s n="vaux"/></l><r>уметь<s n="vblex"/></r></p></e>
+    <e><p><l>ei<s n="vaux"/></l><r>нет<s n="adv"/></r></p></e>
+    <e><p><l>ei<s n="vblex"/></l><r>нет<s n="adv"/></r></p></e>
+    <e><p><l>osata<s n="vaux"/></l><r>мочь<s n="vblex"/></r></p></e>
 
+    <e><p><l>olla<s n="vblex"/></l><r>есть¹<s n="vblex"/></r></p></e>
     <e><p><l>pitää<s n="vblex"/></l><r>любить<s n="vblex"/></r></p></e>
+    <e><p><l>pieniä<s n="vblex"/></l><r>резать<s n="vblex"/></r></p></e>
     <e><p><l>kävellä<s n="vblex"/></l><r>брести<s n="vblex"/></r></p></e>
     <e><p><l>nukkua<s n="vblex"/></l><r>спить<s n="vblex"/></r></p></e>
     <e><p><l>ajatella<s n="vblex"/></l><r>думать<s n="vblex"/></r></p></e>
     <e><p><l>sulkea<s n="vblex"/></l><r>закрывать<s n="vblex"/></r></p></e>
     <e><p><l>voida<s n="vblex"/></l><r>уметь<s n="vblex"/></r></p></e>
     <e><p><l>sanoa<s n="vblex"/></l><r>говорить<s n="vblex"/></r></p></e>
+    <e><p><l>puhua<s n="vblex"/></l><r>говорить<s n="vblex"/></r></p></e>
     <e><p><l>mennä<s n="vblex"/></l><r>идти<s n="vblex"/></r></p></e>
     <e><p><l>syödä<s n="vblex"/></l><r>скушать<s n="vblex"/></r></p></e>
     <e><p><l>juoda<s n="vblex"/></l><r>выпить<s n="vblex"/></r></p></e>
@@ -207,12 +228,18 @@
     <e><p><l>haluta<s n="vblex"/></l><r>мочь²<s n="vblex"/></r></p></e>
     <e><p><l>leikkiä<s n="vblex"/></l><r>играть<s n="vblex"/></r></p></e>
     <e><p><l>löytää<s n="vblex"/></l><r>найти<s n="vblex"/></r></p></e>
+    <e><p><l>tulla<s n="vblex"/></l><r>приходить<s n="vblex"/></r></p></e>
+    <e><p><l>pystyä<s n="vblex"/></l><r>мочь<s n="vblex"/></r></p></e>
 
     <!-- adverbs -->
 
     <e><p><l>ei<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
     <e><p><l>ei<s n="adv"/></l><r>нет<s n="part"/></r></p></e>
 
+    <e><p><l>huolellisesti<s n="adv"/></l><r>осторожно<s n="adv"/></r></p></e>
+    <e><p><l>takaa<s n="adv"/></l><r>из-за<s n="adv"/></r></p></e>
+    <e><p><l>siellä<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
+    <e><p><l>läpi<s n="adv"/></l><r>через<s n="adv"/></r></p></e>
     <e><p><l>tänään<s n="adv"/></l><r>сегодня<s n="adv"/></r></p></e>
     <e><p><l>kanssa<s n="adv"/></l><r>тоже<s n="adv"/></r></p></e>
     <e><p><l>yhdessä<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
@@ -222,6 +249,7 @@
     <e><p><l>eilen<s n="adv"/></l><r>вчера<s n="adv"/></r></p></e>
     <e><p><l>sisällä<s n="adv"/></l><r>внутри<s n="adv"/></r></p></e>
     <e><p><l>nyt<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
+    <e><p><l>yhä<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
     <e><p><l>kahden<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
     <e><p><l>aina<s n="adv"/></l><r>всегда<s n="adv"/></r></p></e>
     <e><p><l>silloin<s n="adv"/></l><r>тогда<s n="adv"/></r></p></e>
@@ -233,6 +261,7 @@
     <e><p><l>kylmästi<s n="adv"/></l><r>холодно<s n="adv"/></r></p></e>
     <e><p><l>myös<s n="adv"/></l><r>тоже<s n="adv"/></r></p></e>
     <e><p><l>nopeasti<s n="adv"/></l><r>быстро<s n="adv"/></r></p></e>
+    <e><p><l>alle<s n="adv"/></l><r>внижу<s n="adv"/></r></p></e>
     <e><p><l>siten<s n="adv"/></l><r>посему<s n="adv"/></r></p></e>
     <e><p><l>menossa<s n="adv"/></l><r>попутно<s n="adv"/></r></p></e>
     <e><p><l>ulos<s n="adv"/></l><r>наружу<s n="adv"/></r></p></e>
@@ -241,6 +270,7 @@
     <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
     <e><p><l>minne<s n="adv"/></l><r>куда<s n="adv"/></r></p></e>
     <e><p><l>tietysti<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
+    <e r="LR" c="neg?"><p><l>tietenkään<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
     <e><p><l>koskaan<s n="adv"/></l><r>никогда<s n="adv"/></r></p></e>
     <e><p><l>todennäköisesti<s n="adv"/></l><r>вероятно<s n="adv"/></r></p></e>
     <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
@@ -250,6 +280,8 @@
     <e><p><l>missään<s n="adv"/></l><r>нигде<s n="adv"/></r></p></e>
     <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
     <e><p><l>kaikkialle<s n="adv"/></l><r>везде<s n="adv"/></r></p></e>
+    <e><p><l>niin<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
+    <e><p><l>niinpä<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
     <e><p><l>taas<s n="adv"/></l><r>снова<s n="adv"/></r></p></e>
     <e><p><l>varovasti<s n="adv"/></l><r>внимательно<s n="adv"/></r></p></e>
     <e><p><l>uudestaan<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
@@ -258,10 +290,13 @@
     <e><p><l>milloin<s n="adv"/></l><r>когда<s n="adv"/></r></p></e>
     <e><p><l>lähemmäksi<s n="adv"/></l><r>ближе<s n="adv"/></r></p></e>
     <e><p><l>hieman<s n="adv"/></l><r>немного<s n="adv"/></r></p></e>
+    <e><p><l>vähän<s n="adv"/></l><r>немного<s n="adv"/></r></p></e>
+    <e><p><l>aika<s n="adv"/></l><r>довольно<s n="adv"/></r></p></e>
     <e><p><l>ulkona<s n="adv"/></l><r>снаружи<s n="adv"/></r></p></e>
 
     <!-- numerals -->
 
+    <e><p><l>yksi<s n="num"/></l><r>одни<s n="num"/></r></p></e>
     <e><p><l>viisi<s n="num"/></l><r>пять<s n="num"/></r></p></e>
     <e><p><l>kuusi<s n="num"/></l><r>шесть<s n="num"/></r></p></e>
 
@@ -289,7 +324,9 @@
     <e><p><l>mikä<s n="prn"/></l><r>что<s n="prn"/></r></p></e>
     <e><p><l>mikään<s n="prn"/></l><r>ничто<s n="prn"/></r></p></e>
     <e><p><l>tämä<s n="prn"/></l><r>это<s n="prn"/></r></p></e>
+    <e><p><l>nämä<s n="prn"/></l><r>этот<s n="prn"/></r></p></e>
     <e><p><l>joka<s n="prn"/></l><r>нибудь<s n="part"/></r></p></e>
+    <e><p><l>jokin<s n="prn"/></l><r>сто-то<s n="part"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>оба<s n="num"/></r></p></e>
 
     <!-- interjections -->
@@ -304,6 +341,7 @@
     <e><p><l>sisällä<s n="post"/></l><r>у<s n="pr"/></r></p></e>
     <e><p><l>kanssa<s n="post"/></l><r>с<s n="pr"/></r></p></e>
     <e><p><l>kohti<s n="post"/></l><r>к<s n="pr"/></r></p></e>
+    <e><p><l>luokse<s n="post"/></l><r>к<s n="pr"/></r></p></e>
     <e><p><l>sisälle<s n="post"/></l><r>спутри<s n="pr"/></r></p></e>
     <e><p><l>sisällä<s n="post"/></l><r>внутри<s n="pr"/></r></p></e>
     <e><p><l>pois<s n="post"/></l><r>от<s n="pr"/></r></p></e>
@@ -315,12 +353,18 @@
     <!-- conjunctions -->
 
     <e><p><l>ja<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+    <e><p><l>tai<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>että<s n="cnjsub"/></l><r>что<s n="cnjsub"/></r></p></e>
     <e><p><l>vaikka<s n="cnjsub"/></l><r>хотя<s n="cnjsub"/></r></p></e>
     <e><p><l>sitten<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e>
     <e><p><l>kun<s n="cnjsub"/></l><r>когда<s n="cnjsub"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
+
+    <!-- dets (no real dets, pron dems) -->
+
+    <e><p><l>yksi<s n="det"/></l><r>одни<s n="num"/></r></p></e>
+    <e><p><l>se<s n="det"/></l><r>оно<s n="prn"/></r></p></e>
 
     <!-- puncts -->
 
@@ -335,6 +379,13 @@
     <e><p><l>!<s n="punct"/></l><r>!<s n="sent"/></r></p></e>
     <e><p><l>…<s n="punct"/></l><r>…<s n="sent"/></r></p></e>
     <e><p><l>"<s n="punct"/></l><r>"<s n="sent"/></r></p></e>
+
+    <!-- russian double puncts -->
+
+    <e><p><l>?<s n="punct"/><j/>.<s n="punct"/></l><r>?.<s n="sent"/></r></p></e>
+    <e><p><l>?<s n="punct"/><j/>"<s n="punct"/></l><r>?"<s n="sent"/></r></p></e>
+    <e><p><l>!<s n="punct"/><j/>.<s n="punct"/></l><r>!.<s n="sent"/></r></p></e>
+    <e><p><l>!<s n="punct"/><j/>"<s n="punct"/></l><r>!"<s n="sent"/></r></p></e>
 
     <!-- bound morphs -->
 
