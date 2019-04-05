@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
   <section-def-cats>
-    <def-cat n="nom">
+    <def-cat n="noun">
       <cat-item tags="n.*"/>
     </def-cat>
     <def-cat n="sent">
@@ -10,26 +10,78 @@
   </section-def-cats>
 
   <section-def-attrs>
-    <def-attr n="a_cas">
+    <def-attr n="nountype">
+      <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="case">
       <attr-item tags="nom"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="ine"/>
+      <attr-item tags="gen"/>
+    </def-attr>
+    <def-attr n="number">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
     </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
-    <def-var n="number"/>
+    <def-var n="num"/>
   </section-def-vars>
 
   <section-def-macros>
+    <def-macro n="case-mangler" npar="1">
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="case"/><lit-tag v="loc"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="case"/><lit-tag v="ine"/> <!-- XXX -->
+          </let>
+        </when>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="case"/><lit-tag v="acc"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="case"/><lit-tag v="gen"/>
+          </let>
+        </when>
+        <!-- otherwise, same tense -->
+      </choose>
+    </def-macro>
     <def-macro n="test" npar="1">
           <let>
-            <var n="number"/>
+            <var n="num"/>
             <lit v=""/>
           </let>
     </def-macro>
   </section-def-macros>
 
   <section-rules>
-    <rule comment="REGLA: SENT">
+    <rule comment="stray noun">
+      <pattern>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="noun" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="N"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="nountype"/>
+              <clip pos="1" side="tl" part="number"/>
+              <clip pos="1" side="tl" part="case"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="punct">
       <pattern>
         <pattern-item n="sent"/>
       </pattern>
