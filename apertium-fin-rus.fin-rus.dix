@@ -46,9 +46,13 @@
     <sdef n="p3"              c="3rd person"/>
 
     <sdef n="nt"              c="Neuter"/>
+    <sdef n="nn"              c="Nanimate"/>
+    <sdef n="an"              c="Animate"/>
     <sdef n="ut"              c="Utrum"/>
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
+    <sdef n="mf"              c="Masculine-feminine"/>
+    <sdef n="mfn"              c="Masculine-feminine-neuter"/>
     <sdef n="un"              c="No gender"/>
 
     <sdef n="sg"              c="Singular"/>
@@ -236,63 +240,63 @@
     <e><p><l>ei<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
     <e><p><l>ei<s n="adv"/></l><r>нет<s n="part"/></r></p></e>
 
-    <e><p><l>huolellisesti<s n="adv"/></l><r>осторожно<s n="adv"/></r></p></e>
-    <e><p><l>takaa<s n="adv"/></l><r>из-за<s n="adv"/></r></p></e>
-    <e><p><l>siellä<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
-    <e><p><l>läpi<s n="adv"/></l><r>через<s n="adv"/></r></p></e>
-    <e><p><l>tänään<s n="adv"/></l><r>сегодня<s n="adv"/></r></p></e>
-    <e><p><l>kanssa<s n="adv"/></l><r>тоже<s n="adv"/></r></p></e>
-    <e><p><l>yhdessä<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
-    <e><p><l>edessä<s n="adv"/></l><r>перед<s n="adv"/></r></p></e>
-    <e><p><l>siinä<s n="adv"/></l><r>вот<s n="part"/></r></p></e>
-    <e><p><l>miksi<s n="adv"/></l><r>почему<s n="adv"/></r></p></e>
-    <e><p><l>eilen<s n="adv"/></l><r>вчера<s n="adv"/></r></p></e>
-    <e><p><l>sisällä<s n="adv"/></l><r>внутри<s n="adv"/></r></p></e>
-    <e><p><l>nyt<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
-    <e><p><l>yhä<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
-    <e><p><l>kahden<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
+    <e><p><l>aika<s n="adv"/></l><r>довольно<s n="adv"/></r></p></e>
     <e><p><l>aina<s n="adv"/></l><r>всегда<s n="adv"/></r></p></e>
-    <e><p><l>silloin<s n="adv"/></l><r>тогда<s n="adv"/></r></p></e>
-    <e><p><l>hyvin<s n="adv"/></l><r>очень<s n="adv"/></r></p></e>
-    <e><p><l>kovasti<s n="adv"/></l><r>очень<s n="adv"/></r></p></e>
+    <e><p><l>alle<s n="adv"/></l><r>внижу<s n="adv"/></r></p></e>
+    <e><p><l>edessä<s n="adv"/></l><r>перед<s n="adv"/></r></p></e>
+    <e><p><l>eilen<s n="adv"/></l><r>вчера<s n="adv"/></r></p></e>
     <e><p><l>erittäin<s n="adv"/></l><r>очень<s n="adv"/></r></p></e>
-    <e><p><l>missä<s n="adv"/></l><r>где<s n="adv"/></r></p></e>
+    <e><p><l>hieman<s n="adv"/></l><r>немного<s n="adv"/></r></p></e>
+    <e><p><l>hitaasti<s n="adv"/></l><r>медленно<s n="adv"/></r></p></e>
+    <e><p><l>huolellisesti<s n="adv"/></l><r>осторожно<s n="adv"/></r></p></e>
+    <e><p><l>hyvin<s n="adv"/></l><r>очень<s n="adv"/></r></p></e>
+    <e><p><l>hyvin<s n="adv"/></l><r>хорошо<s n="adv"/></r></p></e>
+    <e><p><l>kahden<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
+    <e><p><l>kaikkialle<s n="adv"/></l><r>везде<s n="adv"/></r></p></e>
+    <e><p><l>kanssa<s n="adv"/></l><r>тоже<s n="adv"/></r></p></e>
+    <e><p><l>koskaan<s n="adv"/></l><r>никогда<s n="adv"/></r></p></e>
+    <e><p><l>kovasti<s n="adv"/></l><r>очень<s n="adv"/></r></p></e>
     <e><p><l>kuumasti<s n="adv"/></l><r>тепло<s n="adv"/></r></p></e>
     <e><p><l>kylmästi<s n="adv"/></l><r>холодно<s n="adv"/></r></p></e>
-    <e><p><l>myös<s n="adv"/></l><r>тоже<s n="adv"/></r></p></e>
-    <e><p><l>nopeasti<s n="adv"/></l><r>быстро<s n="adv"/></r></p></e>
-    <e><p><l>alle<s n="adv"/></l><r>внижу<s n="adv"/></r></p></e>
-    <e><p><l>siten<s n="adv"/></l><r>посему<s n="adv"/></r></p></e>
-    <e><p><l>menossa<s n="adv"/></l><r>попутно<s n="adv"/></r></p></e>
-    <e><p><l>ulos<s n="adv"/></l><r>наружу<s n="adv"/></r></p></e>
-    <e><p><l>miten<s n="adv"/></l><r>посему<s n="adv"/></r></p></e>
     <e><p><l>lähellä<s n="adv"/></l><r>рядом<s n="adv"/></r></p></e>
-    <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
-    <e><p><l>minne<s n="adv"/></l><r>куда<s n="adv"/></r></p></e>
-    <e><p><l>tietysti<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
-    <e r="LR" c="neg?"><p><l>tietenkään<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
-    <e><p><l>koskaan<s n="adv"/></l><r>никогда<s n="adv"/></r></p></e>
-    <e><p><l>todennäköisesti<s n="adv"/></l><r>вероятно<s n="adv"/></r></p></e>
-    <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
-    <e><p><l>yksinkertaisesti<s n="adv"/></l><r>просто<s n="adv"/></r></p></e>
-    <e><p><l>hitaasti<s n="adv"/></l><r>медленно<s n="adv"/></r></p></e>
-    <e><p><l>vielä<s n="adv"/></l><r>всё<b/>ещё<s n="adv"/></r></p></e>
-    <e><p><l>missään<s n="adv"/></l><r>нигде<s n="adv"/></r></p></e>
-    <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
-    <e><p><l>kaikkialle<s n="adv"/></l><r>везде<s n="adv"/></r></p></e>
-    <e><p><l>niin<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
-    <e><p><l>niinpä<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
-    <e><p><l>taas<s n="adv"/></l><r>снова<s n="adv"/></r></p></e>
-    <e><p><l>varovasti<s n="adv"/></l><r>внимательно<s n="adv"/></r></p></e>
-    <e><p><l>uudestaan<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
-    <e><p><l>hyvin<s n="adv"/></l><r>хорошо<s n="adv"/></r></p></e>
-    <e><p><l>sitten<s n="adv"/></l><r>затем<s n="adv"/></r></p></e>
-    <e><p><l>milloin<s n="adv"/></l><r>когда<s n="adv"/></r></p></e>
     <e><p><l>lähemmäksi<s n="adv"/></l><r>ближе<s n="adv"/></r></p></e>
-    <e><p><l>hieman<s n="adv"/></l><r>немного<s n="adv"/></r></p></e>
-    <e><p><l>vähän<s n="adv"/></l><r>немного<s n="adv"/></r></p></e>
-    <e><p><l>aika<s n="adv"/></l><r>довольно<s n="adv"/></r></p></e>
+    <e><p><l>läpi<s n="adv"/></l><r>через<s n="adv"/></r></p></e>
+    <e><p><l>menossa<s n="adv"/></l><r>попутно<s n="adv"/></r></p></e>
+    <e><p><l>miksi<s n="adv"/></l><r>почему<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>milloin<s n="adv"/></l><r>когда<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>minne<s n="adv"/></l><r>куда<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>missä<s n="adv"/></l><r>где<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>missään<s n="adv"/></l><r>нигде<s n="adv"/></r></p></e>
+    <e><p><l>miten<s n="adv"/></l><r>посему<s n="adv"/></r></p></e>
+    <e><p><l>myös<s n="adv"/></l><r>тоже<s n="adv"/></r></p></e>
+    <e><p><l>niinpä<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
+    <e><p><l>niin<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
+    <e><p><l>nopeasti<s n="adv"/></l><r>быстро<s n="adv"/></r></p></e>
+    <e><p><l>nyt<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
+    <e><p><l>siellä<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
+    <e><p><l>siinä<s n="adv"/></l><r>вот<s n="part"/></r></p></e>
+    <e><p><l>silloin<s n="adv"/></l><r>тогда<s n="adv"/></r></p></e>
+    <e><p><l>sisällä<s n="adv"/></l><r>внутри<s n="adv"/></r></p></e>
+    <e><p><l>siten<s n="adv"/></l><r>посему<s n="adv"/></r></p></e>
+    <e><p><l>sitten<s n="adv"/></l><r>затем<s n="adv"/></r></p></e>
+    <e><p><l>taas<s n="adv"/></l><r>снова<s n="adv"/></r></p></e>
+    <e><p><l>takaa<s n="adv"/></l><r>из-за<s n="adv"/></r></p></e>
+    <e><p><l>tietysti<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
+    <e><p><l>todennäköisesti<s n="adv"/></l><r>вероятно<s n="adv"/></r></p></e>
+    <e><p><l>tänään<s n="adv"/></l><r>сегодня<s n="adv"/></r></p></e>
     <e><p><l>ulkona<s n="adv"/></l><r>снаружи<s n="adv"/></r></p></e>
+    <e><p><l>ulos<s n="adv"/></l><r>наружу<s n="adv"/></r></p></e>
+    <e><p><l>uudestaan<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
+    <e><p><l>varovasti<s n="adv"/></l><r>внимательно<s n="adv"/></r></p></e>
+    <e><p><l>vielä<s n="adv"/></l><r>всё<b/>ещё<s n="adv"/></r></p></e>
+    <e><p><l>vähän<s n="adv"/></l><r>немного<s n="adv"/></r></p></e>
+    <e><p><l>yhdessä<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
+    <e><p><l>yhä<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
+    <e><p><l>yksinkertaisesti<s n="adv"/></l><r>просто<s n="adv"/></r></p></e>
+    <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
+    <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
+    <e><p><l>ympäriinsä<s n="adv"/></l><r>вокруг<s n="adv"/></r></p></e>
+    <e r="LR" c="neg?"><p><l>tietenkään<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
 
     <!-- numerals -->
 
@@ -304,13 +308,13 @@
 
     <!-- personals -->
 
-    <e><p><l>minä<s n="prn"/></l><r>я<s n="prn"/></r></p></e>
-    <e><p><l>sinä<s n="prn"/></l><r>вы<s n="prn"/></r></p></e>
-    <e><p><l>hän<s n="prn"/></l><r>она<s n="prn"/></r></p></e>
-    <e><p><l>hän<s n="prn"/></l><r>он<s n="prn"/></r></p></e>
-    <e><p><l>se<s n="prn"/></l><r>оно<s n="prn"/></r></p></e>
-    <e><p><l>te<s n="prn"/></l><r>ты<s n="prn"/></r></p></e>
-    <e><p><l>he<s n="prn"/></l><r>они<s n="prn"/></r></p></e>
+    <e><p><l>minä<s n="prn"/></l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e><p><l>sinä<s n="prn"/></l><r>вы<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
+    <e><p><l>hän<s n="prn"/></l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
+    <e><p><l>hän<s n="prn"/></l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></r></p></e>
+    <e><p><l>se<s n="prn"/></l><r>оно<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>te<s n="prn"/></l><r>ты<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
+    <e><p><l>he<s n="prn"/></l><r>они<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/></r></p></e>
 
     <!-- personals with cases or stuff -->
 
@@ -321,10 +325,10 @@
 
     <!-- others -->
 
-    <e><p><l>mikä<s n="prn"/></l><r>что<s n="prn"/></r></p></e>
-    <e><p><l>mikään<s n="prn"/></l><r>ничто<s n="prn"/></r></p></e>
-    <e><p><l>tämä<s n="prn"/></l><r>это<s n="prn"/></r></p></e>
-    <e><p><l>nämä<s n="prn"/></l><r>этот<s n="prn"/></r></p></e>
+    <e><p><l>mikä<s n="prn"/></l><r>что<s n="prn"/><s n="itg"/><s n="nt"/></r></p></e>
+    <e><p><l>mikään<s n="prn"/></l><r>ничто<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>tämä<s n="prn"/><s n="sg"/></l><r>это<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>nämä<s n="prn"/><s n="pl"/></l><r>этот<s n="prn"/><s n="dem"/><s n="nt"/><s n="pl"/></r></p></e>
     <e><p><l>joka<s n="prn"/></l><r>нибудь<s n="part"/></r></p></e>
     <e><p><l>jokin<s n="prn"/></l><r>сто-то<s n="part"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>оба<s n="num"/></r></p></e>
